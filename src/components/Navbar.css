@@ -1,0 +1,19 @@
+.hover-effect {
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    color: #ffffff;
+    background-color: #007bff; /* Hover color */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .active-category {
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
