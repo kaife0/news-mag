@@ -6,7 +6,7 @@ const Navbar = ({ setCategory }) => {
   };
 
   return (
-    <div>
+    <div> 
       <nav
         className="navbar navbar-expand-lg bg-body-tertiary"
         data-bs-theme="dark"
