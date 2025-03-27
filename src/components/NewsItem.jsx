@@ -7,7 +7,7 @@ const NewsItem = ({ title, description, src, url }) => {
     >
       <img
         src={src? src:image}
-        style={{ height: "200px", width: "100%", objectFit: "cover" }}
+        style={{ height: "200px", width: "100%", objectFit: "cover" }} 
         className="card-img-top"
         alt="..."
       />
