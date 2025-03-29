@@ -5,7 +5,7 @@ import NewsBoard from "./components/NewsBoard"
 const App = () => { 
 const [category,setCategory]= useState("general")  
 
-  return (
+  return ( 
     <div>
      <Navbar setCategory={setCategory} />
      <NewsBoard category={category} />
